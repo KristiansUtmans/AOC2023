@@ -32,9 +32,8 @@ public class Solution {
         wordToDigitMap.put("eight", "8");
         wordToDigitMap.put("nine", "9");
 
-        String[] input = inputHelper.Input.getInput("dayOne");
-
         int result = 0;
+        String[] input = inputHelper.Input.getInput("dayOne");
 
         Pattern pattern = Pattern.compile(partOne ? partOneRegex : partTwoRegex);
 
