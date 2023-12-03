@@ -1,0 +1,7 @@
+# idea
+/.idea/
+# Any other files
+*.iml
+
+# Compiled files
+/out/
